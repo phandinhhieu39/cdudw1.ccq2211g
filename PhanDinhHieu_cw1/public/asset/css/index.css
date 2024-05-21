@@ -1,0 +1,111 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* Header */
+header {
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin-top: 10px;
+}
+
+
+/* Navigation */
+nav {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+/* search */
+/* Đảm bảo rằng kích thước của ô tìm kiếm phù hợp trên tất cả các kích thước màn hình */
+.search {
+    width: 300%; /* Đảm bảo phần tìm kiếm chiếm toàn bộ chiều rộng của container cha */
+}
+
+/* Đảm bảo rằng ô tìm kiếm có đủ không gian xung quanh */
+.input-group {
+    margin-bottom: 50px; /* Khoảng cách dưới cùng */
+}
+
+/* Định dạng ô tìm kiếm */
+.form-control {
+    border-radius: 3; /* Loại bỏ viền bo tròn */
+    border-color: #444; /* Màu viền của ô tìm kiếm */
+}
+
+/* Định dạng phần mở rộng */
+.input-group-text {
+    background-color: #444; /* Màu nền */
+    color: #666; /* Màu chữ */
+    border-color: #444; /* Màu viền */
+    cursor: pointer; /* Con trỏ khi di chuột qua */
+}
+
+/* Định dạng phần mở rộng khi di chuột qua */
+.input-group-text:hover {
+    background-color: #444; /* Màu nền khi di chuột qua */
+    border-color: #333; /* Màu viền khi di chuột qua */
+}
+
+/* Section */
+section {
+    padding: 20px;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+footer p {
+    margin-top: 10px;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .col-lg-4,
+    .col-md-4 {
+        width: 50%;
+        float: left;
+    }
+}
+
+@media (max-width: 576px) {
+    .col-lg-4,
+    .col-md-4 {
+        width: 100%;
+    }
+}
